@@ -1,32 +1,34 @@
 body{
+    font-family: 'Comforter', cursive;
+}
+h1{
+    color: salmon;
+}
+p{
+    color: gray;
+}
+.link-button{
+    text-decoration: none;
+    background-color: lightblue;
+    height: fit-content;
     
 }
-h2{
-    color: rgb(255, 0, 157);
-}
-.half-width{
-    height: 30%;
-    width: 30%;
+div{
+    width: 35%;
     float: left;
-    padding: 10%;
+    padding: 5%;
+    margin-left: 5%;
 }
 img{
     height: 50%;
     width: 50%;
-    padding: 0%;
-    margin: 0%;
 }
-.link-button{
-    color: white;
-    background-color: red;
-    font-size: 30px;
-    text-decoration: none;
-    width: 80px;
-    height: fit-content;
-    padding: 2%;
-}
-.top-banner{
+.bgimg{
     background-image: url(images/header-bg.png);
-    border: 0px solid red;
     background-repeat: no-repeat;
+    border: 0px solid red;
+    background-position: center s;
+}
+section{
+    height: 500px;
 }
