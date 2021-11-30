@@ -1,34 +1,40 @@
 body{
     font-family: 'Comforter', cursive;
 }
-h1{
-    color: salmon;
-}
-p{
-    color: gray;
-}
-.link-button{
-    text-decoration: none;
-    background-color: lightblue;
-    height: fit-content;
-    
-}
-div{
-    width: 35%;
-    float: left;
-    padding: 5%;
-    margin-left: 5%;
-}
-img{
-    height: 50%;
-    width: 50%;
-}
-.bgimg{
-    background-image: url(images/header-bg.png);
-    background-repeat: no-repeat;
-    border: 0px solid red;
-    background-position: center s;
-}
 section{
     height: 500px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 80%;
+    
+}
+p{
+    color: grey;
+}
+h1{
+    color: tomato;
+}
+.header-image{
+    background-image: url(images/header-bg.png);
+}
+#dream-bg{
+    background-image: url(images/biography-bg.png);
+}
+.experience-area img{
+    width: 20%;
+    float: left;
+    margin-top: 100px;
+    margin: 10px;
+    padding-left: 100px;
+}
+h3{
+    margin-top: 100px;
+    text-align: center;
+    color: blueviolet;
 }
