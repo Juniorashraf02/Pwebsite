@@ -38,3 +38,16 @@ h3{
     text-align: center;
     color: blueviolet;
 }
+.last-part{
+    text-align: center;
+    background-image: url(images/footer-bg.png);
+}
+footer{
+    text-align: center;
+}
+.link-button{
+    text-decoration: none;
+    background-color: mediumpurple;
+    width: 100px;
+    height: 100%;
+}
